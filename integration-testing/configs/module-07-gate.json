@@ -1,0 +1,13 @@
+{
+  "moduleId": "module-07-gate",
+  "displayName": "Module 07: Gate",
+  "timeoutSec": 120,
+  "requiredEnv": ["OPENAI_API_KEY"],
+  "requiresPackage": false,
+  "expectedBehavior": "Generate a story, score its quality on a 0-1 scale, then route to an approve or reject path based on the gate threshold. Should display the gate score and which route was taken.",
+  "requiredOutput": [
+    "=== Module 07: Gate ===",
+    "Gate score:",
+    "Done."
+  ]
+}

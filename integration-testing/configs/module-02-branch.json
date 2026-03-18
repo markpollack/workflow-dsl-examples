@@ -1,0 +1,12 @@
+{
+  "moduleId": "module-02-branch",
+  "displayName": "Module 02: Branch",
+  "timeoutSec": 120,
+  "requiredEnv": ["OPENAI_API_KEY"],
+  "requiresPackage": false,
+  "expectedBehavior": "Classify an input question as medical or legal, then route to the appropriate expert agent. Should show the classification result and domain-specific expert advice.",
+  "requiredOutput": [
+    "=== Module 02: Branch ===",
+    "Done."
+  ]
+}

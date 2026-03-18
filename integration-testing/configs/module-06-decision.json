@@ -1,0 +1,13 @@
+{
+  "moduleId": "module-06-decision",
+  "displayName": "Module 06: Decision",
+  "timeoutSec": 120,
+  "requiredEnv": ["OPENAI_API_KEY"],
+  "requiresPackage": false,
+  "expectedBehavior": "Let the LLM decide between summarize and translate actions based on input text. Should show which decision was made and the resulting output from the chosen action.",
+  "requiredOutput": [
+    "=== Module 06: Decision ===",
+    "Decision result:",
+    "Done."
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "moduleId": "module-01-sequential",
+  "displayName": "Module 01: Sequential Pipeline",
+  "timeoutSec": 120,
+  "requiredEnv": ["OPENAI_API_KEY"],
+  "requiresPackage": false,
+  "expectedBehavior": "Run a 3-step sequential story pipeline: write a short story, edit for audience (young-adult), edit for style (punchy). Should produce a coherent final story that reflects all three pipeline stages.",
+  "requiredOutput": [
+    "=== Module 01: Sequential Pipeline ===",
+    "Final story:",
+    "Done."
+  ]
+}

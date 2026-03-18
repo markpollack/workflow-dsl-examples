@@ -1,0 +1,14 @@
+{
+  "moduleId": "module-05-parallel",
+  "displayName": "Module 05: Parallel",
+  "timeoutSec": 120,
+  "requiredEnv": ["OPENAI_API_KEY"],
+  "requiresPackage": false,
+  "expectedBehavior": "Fan out two parallel tasks: find meals and find movies for a rainy evening. Both results should be printed with their respective labels, demonstrating concurrent LLM execution.",
+  "requiredOutput": [
+    "=== Module 05: Parallel ===",
+    "Meals:",
+    "Movies:",
+    "Done."
+  ]
+}

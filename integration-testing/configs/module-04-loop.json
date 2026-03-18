@@ -1,0 +1,12 @@
+{
+  "moduleId": "module-04-loop",
+  "displayName": "Module 04: Loop",
+  "timeoutSec": 120,
+  "requiredEnv": ["OPENAI_API_KEY"],
+  "requiresPackage": false,
+  "expectedBehavior": "Run an editor + scorer loop that iterates until the humor quality score reaches >= 0.6. Should show iteration numbers and scores converging toward the threshold, then output the final result.",
+  "requiredOutput": [
+    "=== Module 04: Loop ===",
+    "Done."
+  ]
+}

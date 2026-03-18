@@ -1,0 +1,13 @@
+{
+  "moduleId": "module-03-error-recovery",
+  "displayName": "Module 03: Error Recovery",
+  "timeoutSec": 120,
+  "requiredEnv": ["OPENAI_API_KEY"],
+  "requiresPackage": false,
+  "expectedBehavior": "Execute a risky step that throws an exception, recover with a fallback LLM call, then pass the result to a final step that prefixes 'Final:'. Should demonstrate error handling and graceful continuation.",
+  "requiredOutput": [
+    "=== Module 03: Error Recovery ===",
+    "Final:",
+    "Done."
+  ]
+}

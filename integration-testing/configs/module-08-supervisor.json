@@ -1,0 +1,14 @@
+{
+  "moduleId": "module-08-supervisor",
+  "displayName": "Module 08: Supervisor",
+  "timeoutSec": 120,
+  "requiredEnv": ["OPENAI_API_KEY"],
+  "requiresPackage": false,
+  "expectedBehavior": "Run a supervisor that delegates to review and edit agents over 3 iterations. Should show how many times each agent was called and the final improved result.",
+  "requiredOutput": [
+    "=== Module 08: Supervisor ===",
+    "Review agent called:",
+    "Edit agent called:",
+    "Done."
+  ]
+}
