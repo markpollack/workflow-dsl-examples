@@ -1,6 +1,6 @@
 # Workflow DSL Examples
 
-Start with the [executable DSL progression](executable-dsl/README.md): six deterministic Java 21 examples for the prepared Agent Workflow 0.13.0 milestone.
+Start with the [executable DSL progression](executable-dsl/README.md): six deterministic Java 21 examples for Agent Workflow 0.13.0.
 No provider, API key or Spring container is required.
 
 [Canonical tutorial](https://lab.pollack.ai/docs/agent-workflow/tutorial) · [API reference](https://lab.pollack.ai/docs/agent-workflow/api-reference)
@@ -11,8 +11,7 @@ No provider, API key or Spring container is required.
 ./mvnw -f executable-dsl/pom.xml compile exec:java -Dexec.args=/tmp/workflow-tutorial
 ```
 
-Workflow 0.13.0 is prepared for publication; until Maven Central publication is confirmed, use staged artifacts with `-Dmaven.repo.local=/path/to/staged-repository`.
-Judge 0.18.0 is published.
+Agent Workflow 0.13.0 and Agent Judge 0.18.0 resolve from Maven Central.
 Run again with the same directory to reuse committed results.
 
 ## Historical provider comparisons

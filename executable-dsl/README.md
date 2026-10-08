@@ -2,15 +2,13 @@
 
 Use Java 21 and the repository's `./mvnw` wrapper.
 This parentless module uses **Agent Workflow 0.13.0** and **Agent Judge 0.18.0**.
-Workflow publication is pending; use staged artifacts until Central publication is confirmed.
-Judge is published.
+Both resolve from Maven Central.
 The progression uses only methods available in 0.13.0.
 
 ```bash
 ./mvnw -f executable-dsl/pom.xml compile exec:java -Dexec.args=/tmp/workflow-tutorial
 ```
 
-Before Workflow publication, add `-Dmaven.repo.local=/path/to/staged-repository`.
 Repeat with the same store directory to reuse committed results.
 All Steps and judgments are deterministic fixtures; no provider calls or API keys.
 The program asserts the expected typed reports, all four native conclusions, preserved ERROR/ABSTAIN details, and distinct thrown-evaluation failure.
@@ -49,9 +47,9 @@ Terminal failed/cancelled runs cannot be reopened.
 Loops, waits/timers and Workflow committed-event Journal projection are unavailable in this milestone.
 The canonical [tutorial](https://lab.pollack.ai/docs/agent-workflow/tutorial) explains the progression.
 
-## Subsequent-release completion addition
+## Unreleased: `Sequence.build()`
 
-The consolidation branch adds `Sequence.build()` for a parent ending in an always-failing/cancelling child.
+A later, unreleased version adds `Sequence.build()` for a parent ending in an always-failing/cancelling child.
 It is **not part of 0.13.0** and is intentionally absent from this module.
 Ordinary paths still require explicit terminal intent.
 No subsequent version is selected.
