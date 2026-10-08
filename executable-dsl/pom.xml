@@ -3,7 +3,7 @@
   <groupId>example</groupId><artifactId>executable-dsl</artifactId><version>1.0.0</version>
   <properties><maven.compiler.release>21</maven.compiler.release><project.build.sourceEncoding>UTF-8</project.build.sourceEncoding></properties>
   <dependencies>
-    <dependency><groupId>io.github.markpollack</groupId><artifactId>workflow-batch</artifactId><version>0.13.0</version></dependency>
+    <dependency><groupId>io.github.markpollack</groupId><artifactId>workflow-batch</artifactId><version>0.14.0</version></dependency>
     <dependency><groupId>io.github.markpollack</groupId><artifactId>agent-judge-json-jackson2</artifactId><version>0.18.0</version></dependency>
   </dependencies>
   <build><plugins>

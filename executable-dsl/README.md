@@ -1,9 +1,9 @@
 # Executable DSL: six runnable lessons
 
 Use Java 21 and the repository's `./mvnw` wrapper.
-This parentless module uses **Agent Workflow 0.13.0** and **Agent Judge 0.18.0**.
+This parentless module uses **Agent Workflow 0.14.0** and **Agent Judge 0.18.0**.
 Both resolve from Maven Central.
-The progression uses only methods available in 0.13.0.
+The progression uses only methods available in 0.14.0.
 
 ```bash
 ./mvnw -f executable-dsl/pom.xml compile exec:java -Dexec.args=/tmp/workflow-tutorial
@@ -47,9 +47,8 @@ Terminal failed/cancelled runs cannot be reopened.
 Loops, waits/timers and Workflow committed-event Journal projection are unavailable in this milestone.
 The canonical [tutorial](https://lab.pollack.ai/docs/agent-workflow/tutorial) explains the progression.
 
-## Unreleased: `Sequence.build()`
+## Since 0.14.0: `Sequence.build()`
 
-A later, unreleased version adds `Sequence.build()` for a parent ending in an always-failing/cancelling child.
-It is **not part of 0.13.0** and is intentionally absent from this module.
-Ordinary paths still require explicit terminal intent.
-The addition is planned for 0.14.0 after release approval.
+0.14.0 adds `Sequence.build()` for a parent ending in an always-failing/cancelling child.
+It is available in 0.14.0; the six lessons do not require it.
+Ordinary returning paths still require explicit terminal intent; unreachable successors remain invalid.
