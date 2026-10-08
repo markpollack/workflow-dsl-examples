@@ -52,4 +52,4 @@ The canonical [tutorial](https://lab.pollack.ai/docs/agent-workflow/tutorial) ex
 A later, unreleased version adds `Sequence.build()` for a parent ending in an always-failing/cancelling child.
 It is **not part of 0.13.0** and is intentionally absent from this module.
 Ordinary paths still require explicit terminal intent.
-No subsequent version is selected.
+The addition is planned for 0.14.0 after release approval.
