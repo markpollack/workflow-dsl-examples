@@ -40,7 +40,7 @@ final class ExampleRunner {
 
     private static DurableWorkflows open(Path store, Map<String, Step<?, ?>> steps) {
         var registry = StepRegistry.of(steps);
-        var deployment = new ExecutionCompatibility("dsl-tutorial", "dsl-tutorial-0.13.0-v1",
+        var deployment = new ExecutionCompatibility("dsl-tutorial", "dsl-tutorial-0.14.0-v1",
                 Map.of("fixture", "deterministic"));
         // Physical Step concurrency is separate from each forEach's logical item bound.
         var policy = new ExecutionPolicy(3, 32, 10_000, 2);
